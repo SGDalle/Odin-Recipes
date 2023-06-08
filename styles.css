@@ -1,0 +1,35 @@
+*{
+    line-height: 1.5;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+img {
+    height: 300px;
+    width: 400px;
+}
+
+a{
+    text-decoration: none;
+    text-align: center;
+    padding: 10px;
+    border: auto;
+    margin: 20px;
+    flex: 1;
+}
+
+.home-links{
+    padding: 10px;
+    border: 10px;
+    margin: 10px;
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+.home-links li{
+    display: flex;
+    align-self: center;
+    flex: 1;
+}
